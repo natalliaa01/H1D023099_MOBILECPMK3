@@ -1,0 +1,34 @@
+name: cpmk3_pemmob
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  qr_flutter: ^4.1.0
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.3.10
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/EchoVoice.png 
+  android_gravity: center
+  ios_content_mode: center
+  web: false

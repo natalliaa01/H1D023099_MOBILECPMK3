@@ -9,7 +9,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('EventKu'),
+        title: const Text('EchoVoice'),
         actions: [
           IconButton(
             icon: const Icon(Icons.confirmation_num_outlined),
@@ -66,8 +66,6 @@ class HomeView extends GetView<HomeController> {
   }
 
   Widget _buildSectionTitle(String title) {
-    // --- PERUBAHAN DI SINI ---
-    // Kita beri padding dan ganti style font-nya
     return Padding(
       padding: const EdgeInsets.only(top: 24.0, bottom: 12.0),
       child: Text(

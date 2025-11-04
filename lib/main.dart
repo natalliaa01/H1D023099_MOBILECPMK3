@@ -6,7 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(
     GetMaterialApp(
-      title: "EventKu App",
+      title: "EchoVoice App",
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
